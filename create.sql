@@ -7,7 +7,8 @@ create table publisher (
 create table books (
 	id INTEGER primary key autoincrement,
 	title text,
-	publisher INTEGER references publisher(id)
+	publisher INTEGER,
+	foriegn key(publisher) references publisher(id)
 	);
 	
 create table subjects (
@@ -16,6 +17,8 @@ create table subjects (
 	);
 
 create table books_subjects (
-	book INTEGER references books(id),
-	subject INTEGER references subjects(id)
+	book INTEGER,
+	subject INTEGER,
+	foriegn key(book) references books(id),
+	foriegn key(subject) references subjects(id),
 	);
