@@ -31,7 +31,7 @@ INSERT into books_subjects(book,subject) values (1,3);
 INSERT into books_subjects(book,subject) values (2,4);
 INSERT into books_subjects(book,subject) values (2,3);
 INSERT into books_subjects(book,subject) values (3,2);
-INSERT into books_subjects(book,subject) values (3,4);
+INSERT into books_subjects(book,subject) values (3,3);
 INSERT into books_subjects(book,subject) values (4,3);
 INSERT into books_subjects(book,subject) values (4,5);
 INSERT into books_subjects(book,subject) values (5,3);
