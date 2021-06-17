@@ -38,10 +38,10 @@ INSERT into books_subjects(book,subject) values (5,3);
 INSERT into books_subjects(book,subject) values (5,6);
 INSERT into books_subjects(book,subject) values (6,6);
 INSERT into books_subjects(book,subject) values (6,7);
-INSERT into books_subjects(book,subject) values (7,8);
+INSERT into books_subjects(book,subject) values (7,5);
 INSERT into books_subjects(book,subject) values (7,9);
+INSERT into books_subjects(book,subject) values (8,8);
 INSERT into books_subjects(book,subject) values (8,9);
-INSERT into books_subjects(book,subject) values (8,10);
 
 
 
