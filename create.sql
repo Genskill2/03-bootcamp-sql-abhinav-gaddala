@@ -1,17 +1,17 @@
 create table publisher (
-	id INTEGER primary key,
+	id INTEGER primary key autoincrement,
 	name text not null,
 	country text
 	);
 	
 create table books (
-	id INTEGER primary key,
+	id INTEGER primary key autoincrement,
 	title text,
 	publisher INTEGER references publisher(id)
 	);
 	
 create table subjects (
-	id INTEGER primary key,
+	id INTEGER primary key autoincrement,
 	name text
 	);
 
